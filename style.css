@@ -11,7 +11,6 @@
   padding: 0 20px;
 }
 
-/* HEADER */
 .header {
   position: absolute;
   width: 100%;
@@ -47,7 +46,6 @@
   font-weight: 600;
 }
 
-/* HERO */
 .hero {
   height: 100vh;
   background-size: cover;
@@ -183,7 +181,6 @@
   margin-bottom: 40px;
 }
 
-/* route list */
 .route-list {
   max-width: 420px;
   margin-left: 60px;
@@ -192,7 +189,6 @@
   gap: 16px;
 }
 
-/* item */
 .route-item {
   display: flex;
   justify-content: space-between;
@@ -223,7 +219,6 @@
   background: white;
 }
 
-/* colors */
 .beige {
   background: #f3e8d9;
 }
@@ -240,7 +235,6 @@
   background: #e6dcf4;
 }
 
-/* COLORS */
 .beige {
   background: #efe6d4;
 }
@@ -266,7 +260,6 @@
   height: 700px;
 }
 
-/* IMAGE */
 .pricing-bg img {
   width: 100%;
   height: 100%;
@@ -274,7 +267,6 @@
   display: block;
 }
 
-/* OVERLAY — ЭНД Л АСУУДАЛ БАЙСАН */
 .overlay {
   position: absolute;
   top: 0;
@@ -282,7 +274,7 @@
   width: 100%;
   height: 100%;
 
-  z-index: 2; /* 🔥 ИНГЭЭД TEXT ГАРНА */
+  z-index: 2;
 
   background: rgba(173, 216, 230, 0.85);
   display: flex;
@@ -294,7 +286,6 @@
   text-align: center;
 }
 
-/* TEXT */
 .overlay h2 {
   font-size: 2.5rem;
   font-weight: 700;
@@ -304,23 +295,6 @@
   margin: 10px 0 40px;
   color: #444;
 }
-
-/* CARDS */
-/* .cards {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 30px;
-  max-width: 1100px;
-  width: 100%;
-} */
-
-/* .card {
-  background: #fff;
-  border-radius: 20px;
-  padding: 30px;
-  text-align: left;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
-} */
 
 .card.active {
   border: 2px solid #4da6ff;
@@ -343,7 +317,6 @@
   margin-bottom: 15px;
 }
 
-/* PRICING SECTION */
 .pricing-section {
   width: 100%;
 }
@@ -361,7 +334,6 @@
   display: block;
 }
 
-/* overlay */
 .pricing-overlay {
   position: absolute;
   inset: 0;
@@ -376,7 +348,6 @@
   padding: 40px;
 }
 
-/* title */
 .pricing-title {
   font-size: 32px;
   font-weight: 700;
@@ -388,7 +359,6 @@
   margin: 10px 0 40px;
 }
 
-/* cards wrapper */
 .pricing-cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -397,7 +367,6 @@
   width: 100%;
 }
 
-/* single card */
 .pricing-card {
   background: #fff;
   border-radius: 20px;
@@ -411,7 +380,6 @@
   transform: translateY(-10px);
 }
 
-/* card text */
 .pricing-label {
   font-size: 13px;
   color: #555;
@@ -428,7 +396,6 @@
   margin-bottom: 15px;
 }
 
-/* features */
 .pricing-features p {
   font-size: 13px;
   margin-bottom: 8px;
@@ -444,7 +411,6 @@
   font-weight: bold;
 }
 
-/* button */
 .pricing-btn {
   margin-top: 20px;
   width: 100%;
